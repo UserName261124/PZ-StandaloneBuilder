@@ -33,9 +33,9 @@ One-click copy of your Steam copy of Project Zomboid (B42) into a **self-contain
 ## 快速上手 / Quick start
 
 1. 解压 `PZ-StandaloneBuilder.zip`<br>Extract `PZ-StandaloneBuilder.zip`.
-2. 双击 `PZ独立版构建工具\双击运行_Run.bat`，选语言，依次指定四个目录<br>Double-click `PZ独立版构建工具\双击运行_Run.bat`, choose a language, then pick the four folders.
+2. 双击 `PZ独立版构建工具_Builder\双击运行_Run.bat`，选语言，依次指定四个目录<br>Double-click `PZ独立版构建工具_Builder\双击运行_Run.bat`, choose a language, then pick the four folders.
 3. 等进度条跑完，在 Steam 里「添加非 Steam 游戏」，启动选项填：<br>Wait for the progress bar to finish, add the build as a non-Steam game, and set these launch options:
-4. 换电脑或换盘后，运行 `PZ独立版迁移工具\迁移修复_Repair.bat` 重建联接<br>After moving to another PC or drive, run `PZ独立版迁移工具\迁移修复_Repair.bat` to rebuild the junctions.
+4. 换电脑或换盘后，运行 `PZ独立版迁移工具_Migrator\迁移修复_Repair.bat` 重建联接<br>After moving to another PC or drive, run `PZ独立版迁移工具_Migrator\迁移修复_Repair.bat` to rebuild the junctions.
 
 ```
 -agentlib:zbNative=policy=allow-all -- -cachedir="<副本>\Zomboid" -modfolders mods
@@ -57,13 +57,13 @@ One-click copy of your Steam copy of Project Zomboid (B42) into a **self-contain
 ## 文件说明 / Files
 
 ```
-PZ独立版构建工具/                      Build tool
+PZ独立版构建工具_Builder/                      Build tool
   双击运行_Run.bat                    入口，先选中文/English | entry point, pick language first
   builder.ps1                         构建脚本，单文件双语 | build script, bilingual in one file
   rebuild_junctions.ps1               只重建联接 | rebuild junctions only
   使用说明_ReadMe.txt                 中英双语说明 | bilingual readme
 
-PZ独立版迁移工具/                      Migration tool
+PZ独立版迁移工具_Migrator/                      Migration tool
   迁移修复_Repair.bat                 入口 | entry point
   migrate.ps1                         迁移修复脚本 | migration/repair script
   使用说明_ReadMe.txt                 中英双语说明 | bilingual readme
