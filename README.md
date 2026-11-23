@@ -1,4 +1,6 @@
-# PZ 独立版构建工具 / Project Zomboid Standalone Builder
+# Project Zomboid 锁定版本与模组独立运行版构建工具
+
+Project Zomboid — version-locked standalone build with independent mods
 
 一键把 Steam 正版《僵尸毁灭工程》(B42) 复制成一套**自包含的独立副本**：本体、模组、存档、设置全部收进一个文件夹，不再受 Steam 本体更新和创意工坊自动更新影响，同时**保留 Steam 联机**。
 
@@ -66,3 +68,4 @@ PZ独立版迁移工具/                      Migration tool
   migrate.ps1                         迁移修复脚本 | migration/repair script
   使用说明_ReadMe.txt                 中英双语说明 | bilingual readme
 ```
+
